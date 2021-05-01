@@ -1,0 +1,376 @@
+.right_col {
+    color: rgba(0, 0, 0, 0.712);
+}
+
+.home-btn a {
+    padding: 0;
+    margin-left: -8px;
+}
+
+/* Quandro Estatística HOME */
+.top_tiles {
+    width: 100%
+}
+
+.top_tiles p {
+    font-size: 1.2rem
+}
+
+.top_tiles .tile-stats {
+    box-shadow: 0px 5px 15px rgba(53, 36, 36, .3)
+}
+
+.required,
+.message-field-required span {
+    color: red
+}
+
+.message-field-required {
+    font-size: .8rem
+}
+
+.wizard_steps {
+    left: -9%
+}
+
+.site_title {
+    text-transform: uppercase;
+}
+
+.title-tiny {
+    font-size: 1rem;
+    color: #fff;
+    margin: 0 5px
+}
+
+.modal-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.555);
+    z-index: 100;
+    display: none;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 10%;
+}
+
+ul.alert li {
+    list-style: none;
+    color: #fff;
+    font-weight: 400;
+}
+
+.box-login button {
+    background-color: #2A3F54;
+    border: none
+}
+
+.box-login {
+    width: 100%;
+    height: 100%;
+    border: 1px solid transparent;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #2A3F54
+}
+
+.wrapper_login {
+    width: 360px;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.925);
+    border-radius: 3px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.596);
+}
+
+.box-login .alert-danger {
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 0;
+}
+
+.box-login .alert-warning {
+    background-color: orange;
+    color: #fff;
+    border: none;
+    border-radius: 0;
+}
+
+.box-login img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#success-msg-ajax,
+#error-msg-ajax {
+    display: none
+}
+
+.error {
+    color: red;
+    font-weight: 400;
+}
+
+.box-login .cover-img {
+    margin-top: 5%;
+    margin-bottom: 20px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.459);
+}
+
+.wrapper_login input,
+.wrapper_login button {
+    margin-bottom: 5px;
+    border-radius: 0;
+}
+
+.wrapper_login .title-login {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.582);
+    padding: 10px
+}
+
+.wrapper_login .title-login h2 {
+    font-size: 1.1rem;
+    line-height: 30px;
+}
+
+.modal-full-body .title-modal {
+    padding: 0;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1rem;
+    padding: 10px;
+    background-color: #22374d;
+}
+
+.fisher-cover-img {
+    height: 50px;
+    width: 50px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.548);
+    border-radius: 50%;
+}
+
+.fisher-cover-img img {
+    border-radius: 50%;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+.modal-full-body {
+    background-color: #2A3F54;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.507);
+    color: #fff;
+    position: relative;
+    border-radius: 3px;
+    padding: 20px;
+}
+
+.modal-content .alert {
+    text-align: center;
+    margin: 10px 0;
+}
+
+#spinner-ajax {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 5px dotted orange;
+    margin: 0 auto;
+    display: none;
+    animation-name: spinner-loading;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes spinner-loading {
+    0% {
+        transform: rotateZ(0);
+    }
+
+    100% {
+        transform: rotateZ(360deg);
+    }
+}
+
+.modal-content .modal-full-body {
+    background-color: #2A3F54;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.507);
+    color: #fff;
+    position: relative;
+    border-radius: 3px;
+    padding: 20px;
+    width: 100%
+}
+
+.modal-content .group {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.modal-content .group .form-group:last-of-type {
+    margin-left: 20px;
+}
+
+.modal-content .group .form-group {
+    width: 100%
+}
+
+.modal-full-body form .modal-send {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+}
+
+.modal-full-body form button {
+    margin-top: 20px;
+}
+
+.modal-full-body form label {
+    font-size: 1rem;
+}
+
+.modal-full-body .form-group {
+    margin: 10px 0;
+}
+
+.modal-full-body .x_title {
+    margin-bottom: 30px;
+    border: none;
+}
+
+.modal-full-body .ln_solid {
+    margin-top: 30px;
+}
+
+.modal-full-body .message-field-required {
+    padding: 20px;
+    padding-top: 10px;
+}
+
+
+.validation-same-password {
+    color: orange;
+    font-size: .9rem;
+    margin: 10px 0;
+}
+
+.close-modal {
+    position: absolute;
+    top: -21px;
+    right: -21px;
+    border: none;
+    border-radius: 50%;
+    padding: 10px 15px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+#text-nif, #text-owned {
+    display: none;
+}
+
+.modal-content .card-view {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #2A3F54;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.534);
+    color: #fff;
+}
+
+.modal-content .card-view .first-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.modal-content .card-view .first-line .cover-img {
+    width: 45%;
+    height: 100%;
+    margin-right: 20px;
+    border-radius: 3px;
+}
+
+.modal-content .card-view .first-line .cover-img img {
+    border-radius: 3px;
+}
+
+.modal-content .card-view .info-title {
+    font-size: .8rem;
+    display: block;
+    background-color: #22374d;
+    padding: 5px;
+    color: rgba(255, 255, 255, 0.397)
+}
+
+.modal-content .card-view p {
+    font-size: .8rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0;
+}
+
+.modal-content .card-view .first-line .info {
+    width: 55%;
+}
+
+.modal-content .card-view .first-line .info p:last-of-type {
+    margin-top: 10px;
+}
+
+.modal-content .card-view .second-line {
+    width: 60%;
+    margin-top: 20px;
+    padding: 0;
+
+    width: 100%;
+    height: 100%;
+}
+
+.modal-content .card-view .second-line .info-group {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+
+}
+
+.modal-content .card-view .second-line .info-item {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.modal-content .card-view .second-line .info-item:first-of-type {
+    margin-right: 10px;
+}
+
+.tile-stats .icon {
+    width: 50px;
+    height: 50px;
+    margin-top: -10px;
+    margin-right: -40px;
+}
+
+.tile-stats a {
+    font-weight: bold
+}
